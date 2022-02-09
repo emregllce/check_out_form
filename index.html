@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a266e6a814.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <label for="" class="header">Checkout</label>
+    </header>
+    <form>
+
+        <div class="main_body">
+            <div class="div_left">
+                <div class="left_up">
+                    <h2 class="left_header">Contact information</h2>
+                    <label for="email" class="labels">Email</label>
+                    <div class="email input-field">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="email" id="email" class="inputs" placeholder="Enter your email">
+                    </div>
+                    <label for="phone" class="labels">Phone</label>
+                    <div class="phone input-field">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="tel" name="phone" id="phone" class="inputs" placeholder="Enter your phone">
+                    </div>
+                </div>
+    
+                <div class="left_bottom">
+                    <h2 class="left_header">Shipping address</h2>
+                    <label for="name" class="labels">Full name</label>
+                    <div class="fullName input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="name" id="name" class="inputs" placeholder="Enter your full name">
+                    </div>
+                    <label for="address" class="labels">Address</label>
+                    <div class="address input-field">
+                        <i class="fa-solid fa-house"></i>
+                        <input type="text" name="adress" id="adress" class="inputs" placeholder="Enter your address">
+                    </div>
+                    <label for="city" class="labels">City</label>
+                    <div class="city input-field">
+                        <i class="fa-solid fa-city"></i>
+                        <input type="text" name="city" id="city" class="inputs" placeholder="Enter your city">
+                    </div>
+                    <div class="left_bottom_line">
+                        <div class="my_country">
+                            <label for="country" class="labels">Country</label>
+                            <div class="country">
+                                <i class="fa-solid fa-earth-europe"></i>
+                                <select name="country" id="country" class="inputs">
+                                    <option value="turkey">Turkey</option>
+                                    <option value="USA">USA</option>
+                                    <option value="germany">Germany</option>
+                                    <option value="france">France</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="my_postcode">
+                            <label for="postcode" class="labels">Post Code</label>
+                            <div class="post_code">
+                                <i class="fa-solid fa-envelopes-bulk"></i>
+                                <input type="text" name="postcode" id="postcode" class="inputs" placeholder="Enter your postal code">
+                            </div>
+                        </div>
+                        <div class="single">
+                            <input type="checkbox" name="single_choice" id="single_choice">
+                            <label for="single_choice" class="labels">See this information next time</label>
+                        </div>
+                        <div><button id="button">Continue</button></div>
+                    </div>
+    
+                </div>
+        </div>
+            
+    </form>
+        <div class="div_right">
+            <div class="right_up">
+                <div ><img src="./photo1.png" alt="" class="pic1"></div>
+                <div class="right__right_up">
+                    <div class="right__right_label">Vintage Backbag</div>
+                    <div class="label1"><span style="color: #f2994a; font-weight: 600">$54.99 </span><span style="text-decoration: line-through; font-size: 12px;">$94.99</span></div>
+                    <div class="quantity-controller">
+                        <button class="btn-controller"><i class="fas fa-minus"></i></button>
+                        <p>1</p>
+                        <button class="btn-controller"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="right_center">
+                <div><img src="./photo2.png" alt="" class="pic2"></div>
+                <div class="right__right_center">
+                    <div class="right__right_label">Levi Shoes</div>
+                    <div class="label1"><span style="color: #f2994a; font-weight: 600;">$74.99 </span><span style="text-decoration: line-through; font-size: 12px;">$124.99</span></div>
+                    <div class="quantity-controller">
+                        <button class="btn-controller"><i class="fas fa-minus"></i></button>
+                        <p>1</p>
+                        <button class="btn-controller"><i class="fas fa-plus"></i></button>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="right_bottom1">
+                <p class="ship">Shipping</p>
+                <p class="ship_r">$19</p>
+            </div>
+            <div class="right_bottom2">
+                <p class="ship">Total </p>
+                <p class="ship">$148.98 </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
